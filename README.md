@@ -43,6 +43,7 @@
         [super viewDidLoad];
         
         BannerView* banner = [[BannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - self.view.frame.size.width * 50.0f / 320.0f, self.view.frame.size.width, self.view.frame.size.width * 50.0f / 320.0f) placeId:@"news"];
+        banner.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
         [self.view addSubview:self.banner];
         [self.banner show];
     }
