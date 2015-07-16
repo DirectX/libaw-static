@@ -9,7 +9,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT (example)"
   s.author       = { "" => "denis@adwired.net" }
   s.platform     = :ios
-  s.source_files  = "h", "lib"
+  s.source_files  = "h/*.h"
+  s.preserve_paths = 'lib/libaw.a'
+  s.library = "libaw"
   s.requires_arc = true
   s.dependency "AFNetworking"
 
