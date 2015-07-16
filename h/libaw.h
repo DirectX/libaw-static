@@ -1,8 +1,6 @@
 //
-//  Banner.h
-//  awdemo
+//  libaw.h
 //
-//  Created by Denis on 13.07.15.
 //  Copyright (c) 2015 AdWired. All rights reserved.
 //
 
