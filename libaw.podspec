@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "libaw"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "AdWired static library for iOS 7.0+ with CocoaPod support"
   s.description  = <<-DESC
                    DESC
